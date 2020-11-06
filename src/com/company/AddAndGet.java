@@ -1,5 +1,5 @@
 package com.company;
 
-public interface AddAndGet<T, S> {
-    void print();
+public interface AddAndGet<S extends Number> {
+    double plus(S birinchi, S ekinchi);
 }

@@ -3,8 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Box<Double, Double> box = new Box<>(6.6,7.6);
-        box.print();
+        Box<Double> box = new Box<>();
+        System.out.println(box.plus(45.4,46.4));
     }
 }
 //Создать обобщенный класс и обобщенный интерфейс и реализовать этот интерфейс классом.
